@@ -66,7 +66,7 @@ client.on('message', async msg => { // eslint-disable-line
 
 	command = command.slice(PREFIX.length)
 
-	if (command === `play`) {
+	if (command === `p`) {
     
 		const voiceChannel = msg.member.voiceChannel;
         
@@ -461,17 +461,17 @@ client.on("message", message => {
      🎵「أوامر بوت الاغاني」🎵
  
 .    
-     +play
+     Ap
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     +skip
+     Askip
      تغير الأغنية
-     +pause
+     Apause
      ايقاف الأغنية
-     +resume
+     Aresume
      مواصلة الأغنية
-     +vol
+     Avol
    لتغيير درجه الصوت 1-100
-     +stop
+     Astop
      خروج البوت من الروم
 
 ══════════ஜ۩۞۩ஜ════════════ 
